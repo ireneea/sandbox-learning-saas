@@ -1,5 +1,13 @@
 html {
   font: 100% Helvetica, sans-serif;
-  color: #333;
+  color: #222222;
+}
+
+.primary {
+  color: #47709e;
+}
+
+.secondary {
+  color: dimgray;
 }
 /*# sourceMappingURL=main.css.map */
