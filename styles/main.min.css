@@ -1,2 +1,2 @@
-html{font:100% Helvetica,sans-serif;color:#383838}.primary{color:#5c1e96}.secondary{color:dimgray}footer p{-webkit-transform:translate(10px);transform:translate(10px);color:dimgray}
+html{font:100% Helvetica,sans-serif;color:#383838}.primary{color:#008cff}.secondary{color:dimgray}footer p{-webkit-transform:translate(10px);transform:translate(10px);color:dimgray}.warning,.error,.success{padding:10px;border:1px solid dimgray}.success{border-color:#008cff;color:#008cff}.error{border-color:#d83a3a;color:#d83a3a}.warning{border-color:#f08928;color:#f08928}
 /*# sourceMappingURL=main.min.css.map */

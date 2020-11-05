@@ -6,8 +6,12 @@
   transform: $property;
 }
 
-$primary-color: rgb(92, 30, 150);
+$primary-color: rgb(0, 140, 255);
 $secondary-color: rgb(105, 105, 105);
+
+$success-color: $primary-color;
+$danger-color: rgb(216, 58, 58);
+$warning-color: rgb(240, 137, 40);
 
 .primary {
   color: $primary-color;
@@ -22,4 +26,27 @@ footer {
     @include transform(translate(10px));
     color: $secondary-color;
   }
+}
+
+%message {
+  padding: 10px;
+  border: 1px solid $secondary-color;
+}
+
+.success {
+  @extend %message;
+  border-color: $success-color;
+  color: $success-color;
+}
+
+.error {
+  @extend %message;
+  border-color: $danger-color;
+  color: $danger-color;
+}
+
+.warning {
+  @extend %message;
+  border-color: $warning-color;
+  color: $warning-color;
 }
