@@ -1,12 +1,7 @@
-$font-stack: Helvetica, sans-serif;
-$text-color: rgb(34, 34, 34);
-$primary-color: rgb(71, 112, 158);
-$secondary-color: rgb(105, 105, 105);
+@use "base";
 
-html {
-  font: 100% $font-stack;
-  color: $text-color;
-}
+$primary-color: rgb(92, 30, 150);
+$secondary-color: rgb(105, 105, 105);
 
 .primary {
   color: $primary-color;
