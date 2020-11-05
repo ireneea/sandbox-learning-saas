@@ -10,3 +10,9 @@ $secondary-color: rgb(105, 105, 105);
 .secondary {
   color: $secondary-color;
 }
+
+footer {
+  p {
+    color: $secondary-color;
+  }
+}
