@@ -12,6 +12,8 @@ html {
 }
 
 footer p {
+  -webkit-transform: translate(10px);
+  transform: translate(10px);
   color: dimgray;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,11 @@
 @use "base";
 
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
 $primary-color: rgb(92, 30, 150);
 $secondary-color: rgb(105, 105, 105);
 
@@ -13,6 +19,7 @@ $secondary-color: rgb(105, 105, 105);
 
 footer {
   p {
+    @include transform(translate(10px));
     color: $secondary-color;
   }
 }
